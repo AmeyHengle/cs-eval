@@ -1,0 +1,23 @@
+coherence_score,metric
+0.10439209491917395,"bleu_1_(pred_cs, cs)"
+-0.23057083675644785,"bleu_2_(pred_cs, cs)"
+-0.25104353390794903,"bleu_3_(pred_cs, cs)"
+-0.25104353390794903,"bleu_4_(pred_cs, cs)"
+0.34382091320187397,"rouge_1_(pred_cs, cs)"
+0.35900139991384844,"rouge_2_(pred_cs, cs)"
+0.351698646831267,"rouge_l_(pred_cs, cs)"
+0.3529341973735786,"meteor_score_(pred_cs, cs)"
+0.3474897728487244,"bert_score_(pred_cs, cs)"
+0.38874475779273543,"bart_score_(pred_cs, cs)"
+-0.10584749266472994,"pc_score_(hs, pred_cs)"
+0.05101339868425372,aq_score_(pred_cs)
+0.13630468042928157,"pd_score(hs, pred_cs)"
+0.4350203053022686,gpt-4-zs_coherence_score
+0.3282355428907049,zs_Llama-3-8b-chat-hf_coherence_score
+0.36620318772725174,zs_Mistral-7B-Instruct-v03_coherence_score
+0.5814920685993166,GEVAL_gpt-4_coherence_score
+0.31767995235549173,GEVAL_Llama-3-8b-chat-hf_coherence_score
+0.33880428014238306,GEVAL_Mistral-7B-Instruct-v03_coherence_score
+0.32597303492371,Llama-3-8b-chat-hf_coherence_score
+0.34891189168566306,Mistral-7B-Instruct-v03_coherence_score
+0.6000999054023375,gpt-4_coherence_score

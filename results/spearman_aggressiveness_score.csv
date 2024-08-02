@@ -1,0 +1,24 @@
+aggressiveness_score,metric
+-0.13734661544320584,"bleu_1_(pred_cs, cs)"
+0.1551973720647352,"bleu_2_(pred_cs, cs)"
+0.15974057343699538,"bleu_3_(pred_cs, cs)"
+0.15974057343699538,"bleu_4_(pred_cs, cs)"
+-0.16676437200094105,"rouge_1_(pred_cs, cs)"
+-0.21178433644674144,"rouge_2_(pred_cs, cs)"
+-0.1627267705594071,"rouge_l_(pred_cs, cs)"
+-0.20473089248593365,"meteor_score_(pred_cs, cs)"
+-0.07482308419429969,"bert_score_(pred_cs, cs)"
+-0.19677754881766588,"bart_score_(pred_cs, cs)"
+0.22154757608300396,"pc_score_(hs, pred_cs)"
+0.014865777915656658,aq_score_(pred_cs)
+-0.13707809252070913,"pd_score(hs, pred_cs)"
+0.28261719721953865,toxicity_(pred_cs)
+0.3491515904841341,gpt-4-zs_aggressiveness_score
+0.1986050813033901,zs_Llama-3-8b-chat-hf_aggressiveness_score
+0.31527100581504536,zs_Mistral-7B-Instruct-v03_aggressiveness_score
+0.37877939635261987,GEVAL_gpt-4_aggressiveness_score
+0.13578428280254398,GEVAL_Llama-3-8b-chat-hf_aggressiveness_score
+0.27768003030716853,GEVAL_Mistral-7B-Instruct-v03_aggressiveness_score
+0.17095070053551287,Llama-3-8b-chat-hf_aggressiveness_score
+0.2908118122866275,Mistral-7B-Instruct-v03_aggressiveness_score
+0.4466544838552758,gpt-4_aggressiveness_score

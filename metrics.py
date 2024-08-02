@@ -244,7 +244,7 @@ class Metrics:
         - R (torch.Tensor): Recall scores for each (prediction, reference) pair.
         - F1 (torch.Tensor): F1 scores for each (prediction, reference) pair.
         """
-        P, R, F1 = bert_score(predictions, references, lang=lang)
+        P, R, F1 = bert_score(predictions, references, model_type="bert-base-multilingual-cased")
         return F1
         free_memory()
         return F1.mean().item()

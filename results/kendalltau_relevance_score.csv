@@ -1,0 +1,23 @@
+relevance_score,metric
+0.0004411084730241137,"bleu_1_(pred_cs, cs)"
+-0.055145939716852284,"bleu_2_(pred_cs, cs)"
+-0.06692245895126994,"bleu_3_(pred_cs, cs)"
+-0.06692245895126994,"bleu_4_(pred_cs, cs)"
+0.1498145204118426,"rouge_1_(pred_cs, cs)"
+0.16352837971114273,"rouge_2_(pred_cs, cs)"
+0.15133781089223025,"rouge_l_(pred_cs, cs)"
+0.129835497540405,"meteor_score_(pred_cs, cs)"
+0.1653998847486914,"bert_score_(pred_cs, cs)"
+0.20605054370063333,"bart_score_(pred_cs, cs)"
+0.013387691087381791,"pc_score_(hs, pred_cs)"
+0.10354212980646918,aq_score_(pred_cs)
+0.08550075355165168,"pd_score(hs, pred_cs)"
+0.47551929695798256,gpt-4-zs_relevance_score
+0.2856464459629404,zs_Llama-3-8b-chat-hf_relevance_score
+0.31904300138598524,zs_Mistral-7B-Instruct-v03_relevance_score
+0.5720378653005477,GEVAL_gpt-4_relevance_score
+0.271183417673673,GEVAL_Llama-3-8b-chat-hf_relevance_score
+0.2840804969115348,GEVAL_Mistral-7B-Instruct-v03_relevance_score
+0.2933091356573657,Llama-3-8b-chat-hf_relevance_score
+0.33149519420760815,Mistral-7B-Instruct-v03_relevance_score
+0.6364977754606383,gpt-4_relevance_score
