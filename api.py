@@ -116,23 +116,25 @@ async def generate_from_openai_chat_completion(
 
 
 if __name__ == "__main__":
-    
+
     # input_filename = "/home/ameyh/counterspeech-EVAL/data/results_data_pass2_aggressiveness.csv"
     # output_filename = "/home/ameyh/counterspeech-EVAL/data/results_data_pass2_aggressiveness_nan-rerun.csv"
     # prompt_col = 'prompt_aggressiveness_score'
     input_filename = "//home/ameyh/counterspeech-EVAL/preds/results_combined.csv"
-    output_filename = "/home/ameyh/counterspeech-EVAL/data/results_combined_suitableness_nonHuman.csv"
-    prompt_col = 'prompt_suitableness_score'
-    model_name = 'gpt-3.5-turbo'
+    output_filename = (
+        "/home/ameyh/counterspeech-EVAL/data/results_combined_suitableness_nonHuman.csv"
+    )
+    prompt_col = "prompt_suitableness_score"
+    model_name = "gpt-3.5-turbo"
 
     prompt_data = pd.read_csv(input_filename)
-    prompt_data = prompt_data[prompt_data.source != 'Human']
+    prompt_data = prompt_data[prompt_data.source != "Human"]
     print(prompt_data.shape)
     # prompt_data = prompt_data[prompt_data['prediction_(prompt_aggressiveness_score)_(gpt-4)'].isna()]
-    prompt_data['system_description'] = ''
+    prompt_data["system_description"] = ""
 
     # prompt_data = prompt_data[prompt_data.Intent == 'Denouncing']
-    
+
     input = []
     for system_description, prompt in zip(
         prompt_data["system_description"].values.tolist(),
@@ -155,7 +157,7 @@ if __name__ == "__main__":
             temperature=1,
             max_tokens=64,
             top_p=1,
-            requests_per_minute=150
+            requests_per_minute=150,
         )
     )
 

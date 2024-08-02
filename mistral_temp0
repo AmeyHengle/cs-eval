@@ -1,8 +1,0 @@
-(7926, 4)
-hatespeech                    0
-counterspeech                 0
-predicted_counterspeech    1400
-uuid                          0
-dtype: int64
-Starting Run
-Getting Predictions: 0it [00:00, ?it/s]Getting Predictions: 1it [00:05,  5.22s/it]Getting Predictions: 2it [00:11,  5.65s/it]Getting Predictions: 3it [00:16,  5.29s/it]Getting Predictions: 4it [00:20,  5.04s/it]Getting Predictions: 5it [00:27,  5.83s/it]Getting Predictions: 6it [00:32,  5.52s/it]Getting Predictions: 7it [00:38,  5.53s/it]Getting Predictions: 8it [00:43,  5.38s/it]Getting Predictions: 9it [00:48,  5.30s/it]Getting Predictions: 10it [00:53,  5.22s/it]Getting Predictions: 11it [00:58,  5.19s/it]Getting Predictions: 12it [01:03,  5.12s/it]Getting Predictions: 13it [01:08,  5.04s/it]

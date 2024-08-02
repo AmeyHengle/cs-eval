@@ -1,0 +1,8 @@
+(7926, 4)
+hatespeech                    0
+counterspeech                 0
+predicted_counterspeech    1400
+uuid                          0
+dtype: int64
+Starting Run
+Getting Predictions: 0it [00:00, ?it/s]

@@ -1,6 +1,8 @@
-common_input_prompt = lambda hs, cs: f"""
+common_input_prompt = (
+    lambda hs, cs: f"""
 Hate Speech: "{hs}"\nCounterspeech: "{cs}"
 """.strip()
+)
 
 relevance_score_prompt_zs = f"""
 You will be given one counterspeech (also called as counter-argument or counter-narrative) written for a hateful statement (hate speech). 
